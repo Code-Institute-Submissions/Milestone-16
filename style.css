@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+/*---NavBar---*/
+
+img {
+    width: 50%;
+    height:100%;
+}
+
 /*---Media Queries---*/
 
 @media (max-width: 992px){

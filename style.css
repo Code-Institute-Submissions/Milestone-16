@@ -43,6 +43,27 @@ body, html {
     text-align: center;
 }
 
+/*---Client Reviews---*/
+
+#clientReview{
+    background-color: rgba(36, 33, 33, 0.26);
+    text-align: center;
+}
+
+#reviewContent{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+strong{
+    color: blue;
+}
+
+#joinNow{
+    margin-bottom: 20px;
+}
+
+
 /*---Media Queries---*/
 
 @media (max-width: 992px){

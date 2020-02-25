@@ -63,6 +63,11 @@ strong{
     margin-bottom: 20px;
 }
 
+/*---Profile Pictures---*/
+
+.card-img-top{
+    height: 250px;
+}
 
 /*---Media Queries---*/
 

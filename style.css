@@ -121,6 +121,29 @@ html, body{
     text-align: center;
 }
 
+/*---Profiles---*/
+
+#meetTrainer{
+    padding-bottom: 30px;
+    margin-top: 0;
+}
+
+/*---Profile Pictures---*/
+
+.card-img-top{
+    height: 250px;
+}
+
+/*---Gym Ethos---*/
+
+#gymEthos{
+    padding-top: 20px;
+}
+
+#ethosPara{
+    padding-top: 10px;
+}
+
 /*---Client Reviews---*/
 
 #reviewHeading{
@@ -144,12 +167,6 @@ strong{
 
 #joinNow{
     margin-bottom: 20px;
-}
-
-/*---Profile Pictures---*/
-
-.card-img-top{
-    height: 250px;
 }
 
 /*---Social Icons---*/
@@ -179,22 +196,88 @@ strong{
     color: #0e76a8;
 }
 
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-google-g-plus,
+.fa-linkedin:hover{
+ color: rgba(15, 15, 15, 0.986);
+}
+
 /*---Footer--*/
+
+footer{
+    background-color: rgba(53, 50, 50, 0.986);
+    color: white;
+    padding-top: 32px; 
+}
+
+hr.light{
+    border-top: 1px solid white;
+    width:75%;
+    margin-top: 13px;
+    margin-bottom: 16px; 
+}
 
 #logoImage{
     height: 50%;
     width: 50%;
+    filter: invert(100%);
 }
 
+hr.light-full{
+    border-top: 1px solid white;
+    width:100%;
+    margin-top: 13px;
+    margin-bottom: 16px; 
+}
 
 /*---Media Queries---*/
 
 @media (max-width: 992px){
-
+    .social a{
+        font-size: 60px;
+        padding: 20px;
+    }
 }
 @media (max-width: 768px){
-    
+    .hero-text{
+        top: 45%;
+        font-size: 100%;
+        font-weight: 400;
+        padding-bottom: 3px;
+    }
+    #coverButton{
+        font-size: 95%;
+        padding: 8px 14px;
+    }
+    .display-4{
+        font-size: 200%;
+    }
+
+    .social a{
+        font-size: 40px;
+        padding: 10px;
+    }    
 }
 @media (max-width: 576px){
+        .hero-text{
+        top: 40%;
+        font-size: 90%;
+        font-weight: 300;
+        padding-bottom: 2px;
+    }
+    #coverButton{
+        font-size: 90%;
+        padding: 4px 8px;
+    }
+    .display-4{
+        font-size: 150%;
+    }
+
+    .social a{
+        font-size: 30px;
+        padding: 6px;
+    }    
     
 }

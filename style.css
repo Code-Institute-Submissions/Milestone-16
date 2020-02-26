@@ -96,7 +96,6 @@ html, body{
     border-radius: 0;
 }
 
-
 /*---Features---*/
 
 .fa-dumbbell{
@@ -151,6 +150,33 @@ strong{
 
 .card-img-top{
     height: 250px;
+}
+
+/*---Social Icons---*/
+
+.social{
+    font-size: 73px;
+    padding: 48px;
+}
+
+.fa-facebook{
+    color: #3b5998;
+}
+
+.fa-instagram{
+    color: #fb3958;
+}
+
+.fa-twitter{
+    color: #00aced;
+}
+
+.fa-google-g-plus{
+    color: #dd4b39;
+}
+
+.fa-linkedin{
+    color: #0e76a8;
 }
 
 /*---Footer--*/

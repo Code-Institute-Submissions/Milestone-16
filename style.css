@@ -68,6 +68,53 @@ html, body{
     border: 1px solid white;
 }
 
+/*---Padding---*/
+
+.padding{
+    padding-bottom: 32px;
+}
+
+/*---Welcome---*/
+
+.welcome{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 32px;
+}
+
+.welcome hr {
+    border-top: 2px solid rgba(49, 48, 48, 0.753);
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+
+/*---Jumbotron---*/
+
+.jumbotron{
+    padding: 16px;
+    border-radius: 0;
+}
+
+
+/*---Features---*/
+
+.fa-dumbbell{
+    color: rgba(22, 48, 167, 0.986);
+}
+
+.fa-apple-alt{
+    color:rgba(23, 143, 23, 0.986);
+}
+
+.fa-spa{
+    color:rgba(194, 86, 15, 0.986);
+}
+
+.fas{
+    font-size: 35px;
+    margin: 16px;
+}
 
 /*---Lead Paragraphs---*/
 

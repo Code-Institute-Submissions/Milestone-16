@@ -181,6 +181,30 @@ strong{
     margin-top: 10px;
 }
 
+/*---Gallery---*/
+
+#galleryRow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+#galleryColumn {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+#galleryRow{
+    background-color: rgba(49, 48, 48, 0.753);
+}
+
 /*---Social Icons---*/
 
 .social{
@@ -251,6 +275,10 @@ hr.light-full{
         font-size: 60px;
         padding: 20px;
     }
+    #galleryColumn{
+        flex: 50%;
+        max-width: 50%;
+    }
 }
 @media (max-width: 768px){
     .hero-text{
@@ -266,11 +294,15 @@ hr.light-full{
     .display-4{
         font-size: 200%;
     }
-
     .social a{
         font-size: 40px;
         padding: 10px;
-    }    
+    }  
+    #galleryColumn{
+        flex: 100%;
+        max-width: 100%;
+    }
+
 }
 @media (max-width: 576px){
         .hero-text{
@@ -286,10 +318,12 @@ hr.light-full{
     .display-4{
         font-size: 150%;
     }
-
     .social a{
         font-size: 30px;
         padding: 6px;
     }    
-    
+        #galleryColumn{
+        flex: 100%;
+        max-width: 100%;
+    }
 }

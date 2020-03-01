@@ -8,7 +8,17 @@ This website was created to advertise a fictional personal training gym.
 
 To provide a responsive website where new and existing customers could find out information about the gym and the services it provides. As well as provide an area for existing users to sign in and new customers to sign up. This website adds value to the customer by providing an online presence for the gym to easily display the services they provide. This site also contains contact information and a map for the customer's convenience. This websight also provides a login portal for existing members and a sign up form for potential new members.  
 
-### Structure -  
+### User Stories -  
+
+1. As a new/existing user I'd like to find out information on the gym's opening hours  
+2. As a new/existing user I'd like to find out information on the gym's location  
+3. As a new/existing user I'd like to find out the gym's contact information  
+4. As an existing user I'd like to access my members portal  
+5. As a new user I'd like to sign up to be a member  
+6. As a new/existing user I'd like to find out general info about the gym, such as staff info and reviews  
+7. As a new/existing user I'd like to view images from the gym  
+
+### Structure and Features -  
 
 The website maintains a consistant structure of navigation bar, social links and footer across all 4 pages. These pages are -  
 
@@ -33,6 +43,13 @@ The members portal retains the same navigation bar and footer as the previous pa
 
 The registration page retains the same navigation bar and footer as the previous pages. It contains a simple registration form to capture new client details, this page is again only front end. The submit button refreshes the sign up form.  
 
+#### Features left to implement -  
+
+* Functioning members portal from the sign in page  
+* Google login from members portal  
+* Individual team profiles  
+* Functioning login form
+
 ### Technologies used - 
 
 * HTML
@@ -53,7 +70,9 @@ The website has been tested on -
 * Chrome
 * Firefox
 * validator.w3.org
-* jigsaw.w3.org  
+* jigsaw.w3.org   
+
+Manual regression testing for large, medium and small breakpoints performed on the browsers above. All links and pages checked and validated as working.  
 
 ### Credit -  
 

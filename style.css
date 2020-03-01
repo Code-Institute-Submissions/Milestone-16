@@ -209,7 +209,7 @@ strong{
 
 .social{
     font-size: 73px;
-    padding: 48px;
+    padding: 35px;
 }
 
 .fa-facebook{
@@ -319,8 +319,8 @@ hr.light-full{
         font-size: 150%;
     }
     .social a{
-        font-size: 30px;
-        padding: 6px;
+        font-size: 20px;
+        padding: 0;
     }    
         #galleryColumn{
         flex: 100%;

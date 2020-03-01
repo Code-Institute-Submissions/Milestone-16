@@ -63,3 +63,12 @@ Stack overflow
 W3 newbie - youtube
 Bootstrap
 Google
+
+### Steps taken to deploy the projects
+
+I deployed the project on GitHub Pages by:
+
+1.) Opening the repository on GitHub
+2.) Going to "Settings"
+3.) Scrolling to the section "GitHub Pages" and select the master branch as the source
+4.) A message then appeared to say - Your site is published at https://gazmoore100.github.io/Milestone/

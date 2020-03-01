@@ -12,10 +12,10 @@ To provide a responsive website where new and existing customers could find out 
 
 The website maintains a consistant structure of navigation bar, social links and footer across all 4 pages. These pages are -  
 
-*Homepage
-*Gallery
-*Members Portal
-*registration page
+* Homepage
+* Gallery
+* Members Portal
+* registration page
 
 #### Homepage -  
 
@@ -35,34 +35,34 @@ The registration page retains the same navigation bar and footer as the previous
 
 ### Technologies used - 
 
-*HTML
-*CSS
-*Bootstrap 4
-*Google Fonts
-*Google Maps API
-*Font Awesome
-*GitPod
-*GitHub
-*Git
+* HTML
+* CSS
+* Bootstrap 4
+* Google Fonts
+* Google Maps API
+* Font Awesome
+* GitPod
+* GitHub
+* Git
 
 ### Testing -
 
 The website has been tested on -
 
-*Safari
-*Chrome
-*Firefox
-*validator.w3.org
-*jigsaw.w3.org  
+* Safari
+* Chrome
+* Firefox
+* validator.w3.org
+* jigsaw.w3.org  
 
 ### Credit -  
 
-*Code institue
-*W3 schools
-*Stack overflow
-*W3 newbie - youtube
-*Bootstrap
-*Google
+* Code institue
+* W3 schools
+* Stack overflow
+* W3 newbie - youtube
+* Bootstrap
+* Google
 
 ### Steps taken to deploy the projects  
 
